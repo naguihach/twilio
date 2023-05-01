@@ -1,10 +1,12 @@
 <Response>
+  <Gather numDigits="1" action="/process-key" method="POST">
+    <Say language="fr-FR" voice="alice">
+      Bonjour, bienvenue au service client de CandyShop 25. Pour continuer en français, appuyez sur 1. For English, press 2.
+    </Say>
+  </Gather>
   <Say language="fr-FR" voice="alice">
-    Bonjour, Le service client CandyShop 25 est actuellement indisponible.
-  </Say>
-  <Pause length="1"/>
-  <Say language="fr-FR" voice="alice">
-    Merci de réessayer plus tard
+    Nous sommes désolés, le service client est actuellement indisponible. Merci de réessayer plus tard.
   </Say>
 </Response>
+
 
