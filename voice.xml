@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Gather numDigits="1" action="/process-key" method="POST">
+  <Gather numDigits="1" action="/process-key.php" method="POST">
     <Say language="fr-FR" voice="alice">
-      Bonjour, bienvenue au service client de CandyShop 25. Pour continuer en français, appuyez sur 1. For English, press 2.
+      Bonjour, bienvenue au service client de CandyShop 25. Pour commander, appuyez sur 1. Pour contacter le service client, appuyez sur 2.
     </Say>
   </Gather>
   <Say language="fr-FR" voice="alice">
-    Nous sommes désolés, le service client est actuellement indisponible. Merci de réessayer plus tard.
+    Désolé, nous n'avons pas compris votre choix. Veuillez réessayer plus tard.
   </Say>
 </Response>
 
