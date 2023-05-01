@@ -1,9 +1,10 @@
 <Response>
-<Say voice="alice">
-Bonjour, Le service client est actuellement fermé
-</Say>
-<Pause length="1"/>
-<Say voice="alice">
-Merci de réessayer plus tard
-</Say>
+  <Say language="fr-FR" voice="alice">
+    Bonjour, Le service client est actuellement fermé
+  </Say>
+  <Pause length="1"/>
+  <Say language="fr-FR" voice="alice">
+    Merci de réessayer plus tard
+  </Say>
 </Response>
+
