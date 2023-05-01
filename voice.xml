@@ -1,6 +1,6 @@
 <Response>
   <Say language="fr-FR" voice="alice">
-    Bonjour, Le service client est actuellement fermé
+    Bonjour, Le service client CandyShop 25 est actuellement indisponible.
   </Say>
   <Pause length="1"/>
   <Say language="fr-FR" voice="alice">
