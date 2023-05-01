@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
   header('Content-type: text/xml');
   $userPressed = (int) $_POST['Digits'];
   switch ($userPressed) {
